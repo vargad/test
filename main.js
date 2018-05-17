@@ -30,7 +30,7 @@ function setup() {
     shape.SetAsBoxXYCenterAngle(40, 40, new b2Vec2(50, 50), 0);
 
     var psd = new b2ParticleSystemDef();
-    psd.radius = 1.8;
+    psd.radius = 2.8;
     psd.dampingStrength = 0.8;
 
     particleSystem = world.CreateParticleSystem(psd);
